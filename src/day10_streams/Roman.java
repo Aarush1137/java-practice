@@ -5,7 +5,9 @@ import java.util.Map;
 
 class Roman {
     public int romanToInt(String s) {
-
+        if(s==null||s.length()==0){
+            return -1;
+        }
         HashMap<Character,Integer> roamn = new HashMap<>();
         roamn.put('I',1);
         roamn.put('V',5);
