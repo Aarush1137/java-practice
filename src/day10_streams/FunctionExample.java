@@ -8,5 +8,7 @@ public class FunctionExample {
 
         System.out.println(stringLength.apply("Java"));
         System.out.println(stringLength.apply("Functional"));
+        int a = stringLength.apply("kdjsjsfdpj");
+        System.out.println(a);
     }
 }
