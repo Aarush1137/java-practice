@@ -1,4 +1,4 @@
-package day_11_leetcode;
+package leetcode;
 
 public class FindPivotIndex {
 
